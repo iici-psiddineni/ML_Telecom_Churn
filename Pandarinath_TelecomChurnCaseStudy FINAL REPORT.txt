@@ -1,0 +1,30 @@
+FINAL REPORT
+============
+Approach:
+1. Data is cleaned as made it for performing analysis
+2. Created Churn variable derived from given data
+3. Performed EDA Univariant and Bivariant
+4. Performed PCA, LASSO, RFE on cleaned data
+5. Performed SMOTE to address imbalance in cleaned data
+6. Linear Regression, Random Forest and Decision Tree
+
+Parameters considered for selecting a model:
+1. Accuracy of the model
+2. Confusion matrix details on churn
+3. Number of features
+
+Analysis:
+1. LASSO with Random Forest is best suited model with 43 features, accuracy of 94% and less false-postives.
+2. Dominant Features identified are:
+	arpu_6  
+	arpu_7  
+	arpu_8  
+	onnet_mou_6 
+	onnet_mou_7 
+	onnet_mou_8 
+	offnet_mou_6
+	offnet_mou_7
+	offnet_mou_8
+	roam_ic_mou_6
+3. Other models is in the range of 82% to 86% with features 47 to 72 with a moderate false-positives.
+4. Same dominant features are observed to be in other models too.
