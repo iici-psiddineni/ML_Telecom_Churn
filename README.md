@@ -41,6 +41,18 @@ Build Telecom Curn Model using for given unbalanced data using various Machine L
 8. Model Accuracy comparision
 	a. Confusion Matrix
 	b. Model accuracy using 
+
+
+### <font color='blue'>Solution:</font>
+Below is the order in which programs have to be run for parallel execution and quick results.
+File-1 cleans the data a generate cleaned-master-data and saves in "telecom_churn_data_clean.csv"
+This cleaned-master-data is used by File 2, 3, 4 and 5 for model building and analysis.
+
+1. File-1: "Pandarinath_TelecomChurnCaseStudy.ipynb"
+2. File-2: "Pandarinath_TelecomChurnCaseStudy_Modelling_PCA_LR.ipynb"
+3. File-3: "Pandarinath_TelecomChurnCaseStudy_Modelling_RFE_LR.ipynb"
+4. File-4: "Pandarinath_TelecomChurnCaseStudy_Modelling_LASSO_DT.ipynb"
+5. File-5: "Pandarinath_TelecomChurnCaseStudy_Modelling_LASSO_RF.ipynb"
 	
 ### <font color='blue'>Results:</font>
 1. Identified dominant features some of them are [arpu_6, arpu_7, arpu_8, onnet_mou_6, onnet_mou_7, onnet_mou_8, offnet_mou_6, roam_ic_mou_6]
